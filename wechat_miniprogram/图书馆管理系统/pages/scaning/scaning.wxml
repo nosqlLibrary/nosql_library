@@ -1,0 +1,2 @@
+<!--pages/scaning/scaning.wxml-->
+<button class='scaning' type='primary' bindtap='scan'>扫一扫</button>

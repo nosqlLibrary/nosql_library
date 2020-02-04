@@ -1,0 +1,8 @@
+
+<view class="books">
+<view class="item-single" wx:for="{{BookArray}}"> 
+  <image class="image" src="{{item.image}}" bindtap='bookinfo'></image>
+  <text class="text-name"> {{item.name}}</text>
+  <text class="text-douban">该还日期：{{item.deadline}}</text>
+</view>
+</view>

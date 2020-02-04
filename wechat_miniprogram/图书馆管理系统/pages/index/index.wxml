@@ -1,0 +1,21 @@
+<!--index.wxml-->
+
+<view>
+  <text>当前图书馆：{{library}}</text>
+
+</view>
+<view class="books">
+  <!-- <view class="item-single">
+      <image class="image" src="http://img1.gtimg.com/cul/pics/hv1/29/47/1919/124794989.jpg" ></image>
+      <text class="text-name">{{BookArray[0].name}}</text>
+     <text class="text-douban">豆瓣评分：{{BookArray[0].douban}}</text>
+    </view> -->
+
+    <view class="item-single" wx:for="{{BookArray}}"> 
+      <image class="image" src="{{item.image}}" bindtap='bookinfo'></image>
+      <text class="text-name"> {{item.name}}</text>
+       <text class="text-douban">豆瓣评分：{{item.douban}}</text>
+    </view>
+    
+</view>
+  <button bindtap='switch_library'>切换图书馆</button>

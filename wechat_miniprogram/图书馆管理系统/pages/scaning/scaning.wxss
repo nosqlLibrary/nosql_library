@@ -1,0 +1,11 @@
+/* pages/scaning/scaning.wxss */
+.scaning{
+  /* width: 100%;
+  height: 1000rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content:   center;
+*/
+margin-top: 500rpx;
+width: 70%
+}

@@ -1,0 +1,36 @@
+/**index.wxss**/
+.books{
+  width: 750rpx;
+  display: flex;
+  flex-wrap:wrap;
+
+}
+
+.item-single{
+  width: 230rpx;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rpx;
+ 
+
+}
+.image{
+  width: 220rpx;
+  height: 300rpx;
+  border-radius: 5px;
+}
+.text-name{
+  width: 230rpx;
+  align-self: flex-start;  
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+ 
+}
+.text-douban{
+  align-self: flex-start;
+  font-size-adjust: 0.4;
+  color: gray;
+}

@@ -1,0 +1,33 @@
+<view class="bar">
+  <text>账号：</text>
+  <input placeholder="请输入你的账号" placehoder-class='placehoder'> </input>
+</view>
+<view class="bar">
+  <text>姓名：</text>
+  <input placeholder="请输入你的姓名" placehoder-class='placehoder'> </input>
+</view>
+<view class="bar" style="margin-bottom:3px">
+  <text>性别：</text>
+  <radio-group class="radio-group" bindchange="radioChange" style="margin-left:10px">
+    <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+     <text>{{item.value}}</text>
+    </radio>
+  </radio-group>
+</view>
+
+<view class="bar">
+  <text>所在学院：</text>
+  <input placeholder="请输入你所在学院" placehoder-class='placehoder'> </input>
+</view>
+<view class="bar">
+  <text>手机号码：</text>
+  <input placeholder="请输入你的手机号码" placehoder-class='placehoder'> </input>
+</view>
+<view class="bar"> 
+  <text>邮箱：</text>
+  <input placeholder="请输入你的邮箱" placehoder-class='placehoder'> </input>
+</view>
+
+<view class='submit_botton'>
+<button>提交</button>
+</view>

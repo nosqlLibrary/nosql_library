@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/mineindex/mineindex",
+    "pages/scaning/scaning",
+    "pages/library_search/library_search",
+    "pages/change_info/change_info",
+    "pages/change_password/change_password",
+    "pages/borrowed/borrowed",
+    "pages/adminindex/adminindex"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "assets/img/icon_home.png",
+        "selectedIconPath": "assets/img/icon_home_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "书库"
+      },
+      {
+        "iconPath": "assets/img/icon_cate.png",
+        "selectedIconPath": "assets/img/icon_cate_selected.png",
+        "pagePath": "pages/scaning/scaning",
+        "text": "扫一扫"
+      },
+      {
+        "iconPath": "assets/img/icon_member.png",
+        "selectedIconPath": "assets/img/icon_member_selected.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

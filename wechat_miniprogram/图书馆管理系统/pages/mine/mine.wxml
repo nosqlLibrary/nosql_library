@@ -1,0 +1,20 @@
+
+<input placeholder="请输入你的账号"  bindinput="login_accountInput"  placehoder-class='placehoder' style='margin-top: 100px '> </input>
+<input placeholder="请输入你的密码"  bindinput="login_passwordInput" placehoder-class='placehoder' password='ture'> </input>
+
+
+<view class="bar">
+ 
+  <radio-group class="radio-group" bindchange="radioChange" style="margin-left:10px">
+    <text>登录身份：</text>
+    <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+     <text>{{item.value}}</text>
+    </radio>
+  </radio-group>
+</view>
+
+
+<button type='primary' bindtap='loging'>登陆</button>
+<view class="sign_in">
+  <text bindtap="sign_in">注册账号</text>
+</view>
